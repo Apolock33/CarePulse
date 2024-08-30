@@ -26,7 +26,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                         src="/assets/icons/logo-full.svg"
                         height={1000}
                         width={1000}
-                        alt='logo'
+                        alt="logo"
                         className='h-10 w-fit'
                     />
                 </Link>
@@ -34,7 +34,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                 <section className='flex flex-col items-center'>
                     <Image
                         src='/assets/gifs/success.gif'
-                        alt='success-icon'
+                        alt="success-icon"
                         height={300}
                         width={300}
                     />
@@ -49,7 +49,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                     <div className='flex items-center gap-3'>
                         <Image
                             src={doctor?.image!}
-                            alt='doctor img'
+                            alt="doctor img"
                             width={100}
                             height={100}
                             className='size-6'
@@ -62,7 +62,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                             width={24}
                             height={24}
                             className=''
-                            alt='calendar icon'
+                            alt="calendar icon"
                         />
                         <p>{formatDateTime(appointment.schedule).dateTime}</p>
                     </div>
