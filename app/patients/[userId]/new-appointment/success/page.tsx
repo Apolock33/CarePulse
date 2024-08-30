@@ -41,7 +41,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                     <div className='header mb-6 max-w-[600px] text-center'>
                         Your <span className='text-green-500'>Appointment Request</span> has been successfully submitted
                     </div>
-                    <p>We will be in touch shortly to confirm.</p>
+                    <p>We&apos;ll be in touch shortly to confirm.</p>
                 </section>
 
                 <section className='request-details'>
