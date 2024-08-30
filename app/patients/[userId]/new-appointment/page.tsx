@@ -6,7 +6,7 @@ import * as Sentry from '@sentry/nextjs'
 export default async function NewAppointment({ params: { userId } }: SearchParamProps) {
 
   const patient = await getPatient(userId);
-  
+
   Sentry.metrics.set("user_view_new-appointment", patient?.name);
 
   console.log(patient?.$id)
@@ -31,7 +31,7 @@ export default async function NewAppointment({ params: { userId } }: SearchParam
           />
 
           <p className="copyright mt-10 py-12 text-dark-600 xl:text-left">
-            © 2024 CarePulse
+            &copy; 2024 CarePulse
           </p>
         </div>
       </section>

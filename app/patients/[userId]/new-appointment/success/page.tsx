@@ -34,7 +34,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                 <section className='flex flex-col items-center'>
                     <Image
                         src='/assets/gifs/success.gif'
-                        alt='success icon'
+                        alt='success-icon'
                         height={300}
                         width={300}
                     />
@@ -74,7 +74,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                     </Link>
                 </Button>
 
-                <p className='copyright'>© 2024 CarePulse</p>
+                <p className='copyright'>&copy; 2024 CarePulse</p>
             </div>
         </div>
     )
