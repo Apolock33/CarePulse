@@ -88,7 +88,7 @@ export const updateAppointment = async ({ appointmentId, userId, appointment, ty
             throw new Error('Appointment not found!');
         }
 
-        const smsMessage = `Hi, it's CarePulse. 
+        const smsMessage = `Hi, we are CarePulse. 
             ${type === 'schedule' ?
                 `Your appointment has been scheduled for ${formatDateTime(appointment.schedule!).dateTime} with Dr. ${appointment.primaryPhysician}`
                 :
